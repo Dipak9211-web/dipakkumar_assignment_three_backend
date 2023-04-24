@@ -13,7 +13,7 @@ dotenv.config();
 
 //middleware
 app.use(cors({
-    origin:['http://localhost:3000', "https://crud-mern-app.orender.com"]
+    origin:['http://localhost:3000', "https://crud-mern-app-0plp.onrender.com/"]
 }));
 app.use(morgan("dev"));
 app.use(express.json());
